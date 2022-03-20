@@ -54,12 +54,7 @@ class OverlapArea extends Component {
     let x_prime = Math.min(x2, x22);
     let y = Math.max(y1, y21);
     let y_prime = Math.min(y2, y22);
-    console.log(
-      `${Math.max(square1.left, square2.left)}px`,
-      `${Math.max(square1.top, square2.top)}px`,
-      `${x_prime}px`,
-      `${y_prime}px`
-    );
+
     return {
       background: 'red',
       border: 'yellow 1px solid',

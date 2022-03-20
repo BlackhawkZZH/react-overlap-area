@@ -62,6 +62,7 @@ class OverlapArea extends Component {
     );
     return {
       background: 'red',
+      border: 'yellow 1px solid',
       position: 'absolute',
       left: `${Math.max(square1.left, square2.left)}px`,
       top: `${Math.max(square1.top, square2.top)}px`,
